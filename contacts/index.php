@@ -61,57 +61,183 @@
             <div class="margin">
               <!-- Contact Form -->
               <div class="s-12 m-12 l-6">
-                <h2 class="margin-bottom-10">Leave Message</h2>
+                <h2 class="margin-bottom-10">Masukan Data Diri Anda</h2>
                 <form name="contactForm" class="customform" method="post">
                   <div class="line">
                     <div class="margin">
                       <div class="s-12 m-12 l-6">
-                        <input name="email" class="required email" placeholder="Your e-mail" title="Your e-mail" type="text" />
-                        <p class="email-error form-error">Please enter your e-mail.</p>
+                        <input name="email" class="required email" placeholder="Masukan e-mail anda" title="e-mail" type="text" />
+                        <p class="email-error form-error">Masukan e-mail anda.</p>
                       </div>
                       <div class="s-12 m-12 l-6">
-                        <input name="name" class="name" placeholder="Your name" title="Your name" type="text" />
-                        <p class="name-error form-error">Please enter your name.</p>
+                        <input name="name" class="name" placeholder="Masukan nama anda" title="name" type="text" />
+                        <p class="name-error form-error">Masukan nama anda.</p>
+                      </div>
+                    </div>
+					<div class="margin">
+                      <div class="s-12 m-12 l-6">
+                        <input name="occupation" class="required email" placeholder="Masukan pekerjaan anda" title="occupation" type="text" />
+                        <p class="email-error form-error">Masukan pekerjaan anda.</p>
+                      </div>
+                      <div class="s-12 m-12 l-6">
+                        <input name="tanggal lahir" class="name" placeholder="Masukan tanggal lahir anda" title="name" type="text" />
+                        <p class="name-error form-error">Masukan tanggal lahir anda.</p>
+                      </div>
+                    </div>
+					<div class="margin">
+                      <div class="s-12 m-12 l-6">
+                        <input name="premium" class="required email" placeholder="Masukan premi yang anda rencanakan" title="occupation" type="text" />
+                        <p class="email-error form-error">Masukan angka premi yang anda inginkan.</p>
+                      </div>
+                      <div class="s-12 m-12 l-6">
+                        <input name="hp" class="name" placeholder="Masukan nomor hp/wa anda" title="name" type="text" />
+                        <p class="name-error form-error">Masukan nomor hp/wa anda.</p>
+                      </div>
+                    </div>
+					<div class="margin">
+                      <div class="s-12 m-12 l-6">
+                        <input name="socmedid" class="required email" placeholder="Masukan nama akun socmed anda" title="occupation" type="text" />
+                        <p class="email-error form-error">Masukan nama akun socmed anda.</p>
+                      </div>
+                      <div class="s-12 m-12 l-6">
+                        <input name="socmedtype" class="name" placeholder="Masukan nama layanan socmed anda" title="name" type="text" />
+                        <p class="name-error form-error">Masukan nama layanan socmed anda.</p>
+                      </div>
+                    </div>
+					<div class="margin">
+                      <div class="s-12 m-12 l-6">
+                        <input name="city" class="required email" placeholder="Masukan kota/domisili anda" title="occupation" type="text" />
+                        <p class="email-error form-error">Masukan nama kota anda.</p>
+                      </div>
+                      <div class="s-12 m-12 l-6">
+                        <input name="kode pos" class="name" placeholder="Masukan kode pos anda" title="name" type="text" />
+                        <p class="name-error form-error">Masukan kode pos anda.</p>
                       </div>
                     </div>
                   </div>
-                  <div class="s-12"> 
-                    <input name="subject" class="subject" placeholder="Subject" title="Subject" type="text" />
-                    <p class="subject-error form-error">Please enter the subject.</p>
-                  </div>
-                  <div class="s-12">
-                    <textarea name="message" class="required message" placeholder="Your message" rows="3"></textarea>
-                    <p class="message-error form-error">Please enter your message.</p>
-                  </div>
-                  <div class="s-12"><button class="s-12 submit-form button background-primary text-white" type="submit">Submit Button</button></div>
+                  
                 </form>
               </div>
               <div class="s-12 m-12 l-4">
-                <h2 class="margin-bottom-10">Office Hours</h2>
+                <h2 class="margin-bottom-10"> <br></h2>
                 <div class="s-6">
                   <p class="text-size-16">
-                  Monday<br>
-                  Tuesday<br>
-                  Wednesday<br>
-                  Thursday<br>
-                  Friday<br>
-                  Saturday<br>
-                  Sunday
+                  Jenis Kelamin<br><br>
+                  Perokok<br><br>
+                  Rencana Pembayaran<br><br><br>
+                  Asuransi Tambahan<br><br><br><br><br>
                   </p>
                 </div>
                 <div class="s-6">
                   <p class="text-size-16 text-strong">
-                  08.00-18.00<br>
-                  08.00-18.00<br>
-                  08.00-18.00<br>
-                  08.00-18.00<br>
-                  08.00-14.00<br>
-                  08.00-14.00<br>
-                  Close
+                 <div class="s-12">
+				  <div class="s-6">
+				  <input type="radio" name="gender"
+						
+						value="female">  Female
+					</div>
+					<div class="s-6">
+					<input type="radio" name="gender"
+						
+						value="male">  Male
+					</div>
+					</div>
+                 <div class="s-12">
+				  <br>
+				   <div class="s-6">
+				  <input type="radio" name="smoker"
+						
+						value="Yes">  Ya  
+					</div>
+					<div class="s-6">
+					<input type="radio" name="smoker"
+						
+						value="No">  Tidak  
+					</div>
+					</div>
+				<div class="s-12">
+				  <br>
+				   <div class="s-6">
+				  <input type="radio" name="payplan"
+						
+						value="Bulanan">  Bulanan  
+					</div>
+					<div class="s-6">
+					<input type="radio" name="payplan"
+						value="Quarter">  Triwulan  
+					</div>
+					<div class="s-6">
+					
+					<input type="radio" name="payplan"
+						value="Semester">  Semester  
+					</div>
+					<div class="s-6">
+					<input type="radio" name="payplan"
+						value="Tahunan">  Tahunan  
+					</div>
+				</div>
+				
+				<div class="s-12">
+				  <br>
+				  <div class="s-12">
+				  <input type="checkbox" >
+				  <span class="checkmark"></span>
+				  Sakit Kritis
+				</div>
+
+				 <div class="s-12">
+				  <input type="checkbox" >
+				  <span class="checkmark"></span>
+				  Kecelakaan
+				</div>
+				 <div class="s-12">
+				  <input type="checkbox" >
+				  <span class="checkmark"></span>
+				  Rawat Inap
+				</div>
+				 <div class="s-12">
+				  <input type="checkbox" >
+				  <span class="checkmark"></span>
+				  Cacat Tetap Total
+				</div>
+				</div>
+              
                   </p>
                 </div>
               </div>
-            </div>    
+            </div>
+<div class="s-12">
+<br>
+				  <div class="s-12">
+				  <h2 class="margin-bottom-10">Pertanyaan Tambahan</h2>
+				  Menurut anda, seberapa pentingkah asuransi?<br>
+				  <input type="radio" name="ins_impor"
+						
+						value="sangat penting">  Sangat Penting
+					<br><input type="radio" name="ins_impor"
+						
+						value="male">  Penting
+					<br><input type="radio" name="ins_impor"
+						
+						value="tidak penting">  Tidak Penting
+					</div>
+<br>
+
+<div class="s-12">
+				  <br>Apakah anda bersedia untuk mengajukan Polis Asuransi Tapro?<br>
+				  <input type="radio" name="ins_impor"
+						
+						value="sangat penting">  Sangat Penting
+					<br><input type="radio" name="ins_impor"
+						
+						value="male">  Penting
+					<br><input type="radio" name="ins_impor"
+						
+						value="tidak penting">  Tidak Penting <br>
+					</div>
+<br>
+					</div><p><br></p>
+                  <div class="s-12"><button class="s-12 submit-form button background-primary text-white" type="submit">Submit Button</button></div>			
           </div>  
         </div> 
       </article>
